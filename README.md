@@ -40,6 +40,3 @@
     The application creates a <code>Student</code> object and passes it to the <code>RandomNumberInjector</code>. The injector scans the object's fields and assigns a random value to any field annotated with <code>@RandomNumber</code>. This demonstrates how annotations can be used to drive custom behavior in a program.
 </p>
 
-<h2>Usage</h2>
-<pre><code>java Main.java</code></pre>
-<p>Run the application to see the injected random values for the annotated fields.</p>
